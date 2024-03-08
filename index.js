@@ -12,6 +12,10 @@ btnCreate.addEventListener("click", (e) => {
     database = [];
   }
 
+  if(text === ""){
+    alert("No se puede crear una nota vacia");
+    return;
+  }
   database.push(text);
 
   localStorage.setItem("note", JSON.stringify(database));

@@ -98,4 +98,8 @@
     border: #3B3B3B solid 1px;
     width: 12%;
   }
+
+  .text-area{
+    width: 12%;
+  }
 }
